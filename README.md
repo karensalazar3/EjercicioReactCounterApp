@@ -4,7 +4,7 @@ Este es un proyecto de una aplicación de contador desarrollada con **React**. E
 
 ## Descripción 📜
 
-La aplicación consiste en un componente `Counter` que permite incrementar y decrementar un contador. El contador es completamente personalizable, permitiendo establecer un valor inicial y elegir el valor en el que el contador se incrementa o decrementa (por ejemplo, de 1 en 1, de 2 en 2, etc.). Los botones de incremento y decremento tienen **animaciones visuales** y están estilizados con colores **rosados** para darle un diseño moderno y atractivo.
+La aplicación consiste en un componente `Counter` que permite incrementar y decrementar un contador. El contador es completamente personalizable, permitiendo establecer un valor inicial y elegir el valor en el que el contador se incrementa o decrementa (por ejemplo, de 2 en 2, etc.). Los botones de incremento y decremento tienen **animaciones visuales** y están estilizados con colores **rosados** para darle un diseño moderno y atractivo.
 
 Además, hemos implementado una animación suave en los botones para que al hacer clic, se destaquen de manera visual, proporcionando una experiencia más fluida y dinámica.
 
