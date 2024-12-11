@@ -1,0 +1,58 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+  }
+  
+  div:hover {
+    transform: scale(1.05); 
+  }
+  
+
+  span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d6336c; 
+    animation: pulse 1s infinite; 
+  }
+
+  /*animacion numeros*/
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  button {
+    background-color: #d6336c; 
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  button:hover {
+    background-color: #b92b5e; 
+    transform: scale(1.1); 
+  }
+  
+  button:active {
+    transform: scale(0.95)
+  }
+  
